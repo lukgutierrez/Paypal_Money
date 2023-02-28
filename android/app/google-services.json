@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690338070031",
+    "project_id": "aplication-b5d5a",
+    "storage_bucket": "aplication-b5d5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690338070031:android:ac0edf532f995d835bed7a",
+        "android_client_info": {
+          "package_name": "com.example.paypal_money_false"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690338070031-rkst46ca1fh58i21riu9s9i57fkppv70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZGUScIi6j6UqWiw3mO8hW8fsLS47f4JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690338070031-rkst46ca1fh58i21riu9s9i57fkppv70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
