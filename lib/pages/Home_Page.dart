@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:paypal_money_false/data/firebase_data.dart';
+import 'package:paypal_money_false/pages/Saldo.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -41,6 +42,13 @@ class _HomePageState extends State<HomePage> {
                               ),
                               elevation: 8,
                               child: ListTile(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => SaldoPage()),
+                                  );
+                                },
                                 leading: SizedBox(
                                     width: 40,
                                     height: 40,
@@ -54,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                                 subtitle: Text("Saldo en tu PayPal"),
                               )),
                         ),
-                        Image(image: AssetImage("assets/fondo.jpg")),
+                        Image(image: AssetImage("assets/fondo.png")),
                       ],
                     );
                   });

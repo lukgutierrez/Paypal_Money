@@ -10,3 +10,13 @@ Future<List> getPeople() async {
   });
   return people;
 }
+
+Future<List> getPeople2() async {
+  List people = [];
+  CollectionReference collectionReference = db.collection('Money');
+  QuerySnapshot queryPeople = await collectionReference.get();
+  queryPeople.docs.forEach((documento) {
+    people.add(documento.data());
+  });
+  return people;
+}
